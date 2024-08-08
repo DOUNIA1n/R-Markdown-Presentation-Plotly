@@ -1,0 +1,11 @@
+# Create an interactive Plotly plot
+p1 <- plot_ly(
+  data,
+  x = ~carat,                # Set x-axis to carat
+  y = ~price,                # Set y-axis to price
+  color = ~carat,            # Color points based on carat
+  size = ~carat,             # Size points based on carat
+  text = ~paste("Clarity: ", clarity),  # Hover text showing clarity
+  type = 'scatter',          # Define plot type as scatter
+  mode = 'markers'           # Use markers for data points
+)
