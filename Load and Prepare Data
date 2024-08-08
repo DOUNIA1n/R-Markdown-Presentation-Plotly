@@ -1,5 +1,17 @@
-# Load the Plotly library
+---
+title: "Plotly Presentation"
+author: "Dounia Nasir"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+# Load necessary libraries
+library(ggplot2)
 library(plotly)
+library(dplyr)
 
 # Sample a subset of the diamonds dataset
 data <- diamonds[sample(nrow(diamonds), 2500), 
