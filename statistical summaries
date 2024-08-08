@@ -1,0 +1,46 @@
+# A summary of the data in the diamonds dataset that shows statistical summaries for the variables carat, price, clarity, and depth.
+
+     carat            price          clarity        depth      
+ Min.   :0.2000   Min.   :  360   SI1    :630   Min.   :55.00  
+ 1st Qu.:0.4000   1st Qu.:  942   VS2    :535   1st Qu.:61.10  
+ Median :0.7100   Median : 2415   SI2    :435   Median :61.90  
+ Mean   :0.7925   Mean   : 3843   VS1    :379   Mean   :61.82  
+ 3rd Qu.:1.0400   3rd Qu.: 5303   VVS2   :220   3rd Qu.:62.50  
+ Max.   :3.0100   Max.   :18757   VVS1   :180   Max.   :69.20  
+                                  (Other):121                  
+
+
+Here’s what each part means:
+
+carat:
+Min.: Minimum value (0.2000 carats)
+1st Qu.: 1st Quartile (0.4000 carats)
+Median: Median value (0.7100 carats)
+Mean: Average value (0.7925 carats)
+3rd Qu.: 3rd Quartile (1.0400 carats)
+Max.: Maximum value (3.0100 carats)
+
+price:
+Min.: Minimum value ($360)
+1st Qu.: 1st Quartile ($942)
+Median: Median value ($2415)
+Mean: Average value ($3843)
+3rd Qu.: 3rd Quartile ($5303)
+Max.: Maximum value ($18757)
+
+clarity:
+SI1: The most common clarity grade (630 occurrences)
+VS2: The second most common clarity grade (535 occurrences)
+SI2: The third most common clarity grade (435 occurrences)
+VS1: The fourth most common clarity grade (379 occurrences)
+VVS2: The fifth most common clarity grade (220 occurrences)
+VVS1: The sixth most common clarity grade (180 occurrences)
+(Other): Other clarity grades combined (121 occurrences)
+
+depth:
+Min.: Minimum value (55.00)
+1st Qu.: 1st Quartile (61.10)
+Median: Median value (61.90)
+Mean: Average value (61.82)
+3rd Qu.: 3rd Quartile (62.50)
+Max.: Maximum value (69.20)
