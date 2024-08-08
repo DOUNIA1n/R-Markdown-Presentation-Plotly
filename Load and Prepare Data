@@ -1,0 +1,9 @@
+# Load the Plotly library
+library(plotly)
+
+# Sample a subset of the diamonds dataset
+data <- diamonds[sample(nrow(diamonds), 2500), 
+                 c("carat", "price", "clarity", "depth")]
+
+# Display a summary of the sampled data
+summary(data)
